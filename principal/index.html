@@ -23,17 +23,17 @@
       <form class="form">
       <h1 class="titulo">Formulario</h1><br>
         <label class="pr"for="nombres">nombres</label><br>
-        <input class="pr" type="text" name="nombres" id="nombres" required placeholder="ingrese su nombre" pattern="[A-Za-z]{1,20}"><br>
+        <input class="pr" type="text" name="nombres" id="nombres" required placeholder="ingrese su nombre" pattern="[A-Za-z ]{1,40}"><br>
         <label class="pr"for="apellidos">apellidos</label><br>
-        <input class="pr" type="text" name="apellidos" id="apellidos" required placeholder="ingrese su apellido"pattern="[A-Za-z]{1,20}"><br>
+        <input class="pr" type="text" name="apellidos" id="apellidos" required placeholder="ingrese su apellido"pattern="[A-Za-z ]{1,40}"><br>
         <label class="pr"for="date">Fecha de nacimiento</label><br>
         <input class="pr" type="date" name="fechas" id="fechas"><br>
         <label class="pr"for="correos">email</label><br>
         <input class="pr" type="email" name="correos" id="correos" required placeholder="ingrese su correo"><br>
         <label class="pr"for="constraseñas">contraseña</label><br>
-        <input class="pr" type="password" name="contraseñas" id="contraseñas" required placeholder="ingrese su contraseña"><br>
+        <input class="pr" type="password" name="contraseñas" id="contraseñas" required placeholder="ingrese su contraseña" pattern="^(?=.*\d)(?=.*[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$">><br>
         <label class="pr"for="contraseña">confirme contraseña</label><br>
-        <input class="pr" type="password" name="contraseña" id="contraseña" required placeholder="confirme su contraseña"><br>
+        <input class="pr" type="password" name="contraseña" id="contraseña" required placeholder="confirme su contraseña" pattern="^(?=.*\d)(?=.*[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$">><br>
         <label class="pr"for="direccion">direccion de vivienda</label><br>
         <input class="pr" type="text" name="direccion" id="direccion" required placeholder="ingrese su direccion"><br>
         <label class="pr"for="telefono">telefono</label><br>
