@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+  <ul class="menu">
+    <h1 class="fat">programFAT</h1>
+    <li><a href="/principal/index.html">Registro</a></li>
+    <li><a href="/nomina/nomina.html">Nomina</a></li>
+  </ul>
+</div>
+
+    <div class="formulario">
+      <br><br><br><br><br>
+      <form class="form">
+      <h1 class="titulo">Formulario</h1><br>
+        <label class="pr"for="nombres">nombres</label><br>
+        <input class="pr" type="text" name="nombres" id="nombres" required placeholder="ingrese su nombre" pattern="[A-Za-z]{1,20}"><br>
+        <label class="pr"for="apellidos">apellidos</label><br>
+        <input class="pr" type="text" name="apellidos" id="apellidos" required placeholder="ingrese su apellido"pattern="[A-Za-z]{1,20}"><br>
+        <label class="pr"for="date">Fecha de nacimiento</label><br>
+        <input class="pr" type="date" name="fechas" id="fechas"><br>
+        <label class="pr"for="correos">email</label><br>
+        <input class="pr" type="email" name="correos" id="correos" required placeholder="ingrese su correo"><br>
+        <label class="pr"for="constraseñas">contraseña</label><br>
+        <input class="pr" type="password" name="contraseñas" id="contraseñas" required placeholder="ingrese su contraseña"><br>
+        <label class="pr"for="contraseña">confirme contraseña</label><br>
+        <input class="pr" type="password" name="contraseña" id="contraseña" required placeholder="confirme su contraseña"><br>
+        <label class="pr"for="direccion">direccion de vivienda</label><br>
+        <input class="pr" type="text" name="direccion" id="direccion" required placeholder="ingrese su direccion"><br>
+        <label class="pr"for="telefono">telefono</label><br>
+        <input class="pr" type="tel" name="telefono" id="telefono" required placeholder="ingrese su numero de telefono"><br><br><br>
+        <center><input class="boton" type="submit" value="ENVIAR"></center>
+
+      </form>
+    </div>
+  
+ 
+</body>
+
+</html>

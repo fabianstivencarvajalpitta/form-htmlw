@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/nomina/styles.css">
+</head>
+<div>
+
+</div>
+
+<body>
+    <div>
+        <ul class="menu">
+            <h1 class="fat">programFAT</h1>
+            <li><a href="/principal/index.html">Registro</a></li>
+            <li><a href="/nomina/nomina.html">Nomina</a></li>
+        </ul>
+    </div>
+    <br><br><br>
+        <div class="formulario">
+            <form class="form">
+                <h1 class="nomina">Nomina</h1><br><br>
+                <label class="pr"for="identificacion">identificacion</label>
+                <input class="pr" type="number" name="identificacion" id="identificacion" required placeholder="ingrese su identificacion"><br><br><br>
+                <label class="pr"for="nombres">Nombres el empleado</label>
+                <input class="pr" type="text" name="nombres" id="nombres" required placeholder="ingrese su identificacionpattern" pattern="[A-Za-z]{2,20}"><br><br><br>
+                <label class="pr"for="apellidos">Apellidos del empleado</label>
+                <input class="pr" type="text" name="apellidos" id="apellidos" required placeholder="ingrese su apellpattern" pattern="[A-Za-z]{2,20}"><br><br><br>
+                <label class="hpr"for="dia">Dias trabajados</label>
+                <input class="pr" type="number" name="dias" id="dias"required  placeholder="ingrese los dias"><br><br><br>
+                <label class="pr"for="sueldo">Sueldo del empleado</label>
+                <input class="pr" type="number" name="sueldo" id="sueldo" required placeholder="ingrese el sueldo"><br><br><br>
+                <center><input class="boton" type="submit" value="ENVIAR"><br>
+            </form>
+        </div>
+
+</body>
+
+</html>
